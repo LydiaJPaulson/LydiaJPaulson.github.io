@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<!-- 
+		Final Project CMIS 410
+		Author: Lydia Paulson
+		Date: 11/15/2021
+			
+	-->
+
+<meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
+<title>Company Title</title>
+   <link href="css/styles.css" rel="stylesheet" />
+   <link href="css/forms.css" rel="stylesheet" />
+   <script src="css/formsubmit.js"></script>
+
+</head>
+
+<body>
+
+<div id = "container"> 
+
+<header> 
+
+<a href="index.html"><img src="images/logo.png" alt="THRESHOLD PHASES Since 2021"/></a>
+
+</header> 
+
+<div id = "wrapper">
+		 
+<nav> 
+	<ul>
+	  <li><a href = "index.html">Home</a></li>
+	  <li><a href = "about.html">About</a></li>
+	  <li><a href = "services.html">Services</a></li>
+	  <li><a href = "contactus.html">Contact Us</a></li>
+	</ul>
+	
+	<p>Threshold Phases, A Home, Always And Forever</p>
+</nav> 
+	 
+<section>
+      <h1>Customer Information</h1>
+      <p>Thank you for taking the time to visit us here at <em>Threshold Phases</em>.
+         If you are interested in receiving more information about your forever home,
+		 fill out the form below and one of our team members will contact you shortly.</p>
+      <p>Required values are marked by an asterisk (*)</p>
+	  
+	  <form id="survey" action-"http://www.example.com/ThresholdPhases/info" method="post">
+		<fieldset id="custInfo">
+			<legend>Customer Information</legend>
+			<div class="formRow">
+				<label for="name">Name*</label>
+				<input name="custName" id="name" type="text" placeholder="first and last name" />
+			</div>
+			
+			<div class="formRow">
+				<label for="street">Street address</label>
+				<input name="custStreet" id="street" type="text" />
+			</div>
+			
+			<div class="formRow">
+				<label for="city">City</label>
+				<input name="custCity" id="city" type="text" value="Lincoln" />
+			</div>
+			
+			<div class="formRow">
+				<label for="state">State</label>
+				<input name="custState" id="state" type="text" value="NE" />
+			</div>
+			
+			<div class="formRow">
+				<label for="zip">Postal code</label>
+				<input name="custZip" id="zip" type="text" placeholder="nnnnn (-nnnn)" />
+			</div>
+			
+			<div class="formRow">
+				<label for="phone">Phone number</label>
+				<input name="custPhone" id="phone" type="tel" placeholder="(nnn) nnn-nnnn" />
+			</div>
+			
+			<div class="formRow">
+				<label for="mail">E-mail*</label>
+				<input name="custEmail" id="mail" type="email" />
+			</div>
+			
+			<div class="formRow">
+				<label for="info">Where did you hear about us?<br />(select all that apply)</label>
+				<select name="infoSrc" id="info" size="5" multiple>
+					<option value="internet">Internet</option>
+					<option value="mag">Magazine</option>
+					<option value="news">Newspaper</option>
+					<option value="word">Word of Mouth</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+				   		
+			<input name="mailMe" id="mailCB" value="yes" type="checkbox" />
+			<label for="mailCB">Add me to your mailing list for great new available homes!</label>
+					
+			<div id="buttons">
+				<input type="submit" value="Submit" />
+				<input type="reset" value="Cancel" />
+			</div>	
+		
+	  </form>
+
+     
+</section>
+
+<footer> 
+
+	<p>	7 Haven Road &bull; Lincoln, NE 68516	| <a href = "https://facebook.com" target="_blank">Facebook</a> | <a href="tel:+4024264663">402-IAM-HOME</a> | <a href = "mailto:Lydia@ThresholdPhases.com">Email Us</a></p>
+
+</footer>  
+
+</div> <!-- end wrapper --> 
+</div> <!-- end container -->
+
+</body>
+</html>

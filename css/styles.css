@@ -1,12 +1,9 @@
 @charset "utf-8";
 /*
-   sample start file for final project - educational use only
-   
+     
    Author:   Lydia Paulson
    Date:     11/15/2021
    
-  
-
 */
 
 
@@ -38,9 +35,8 @@ header {
 nav {
     width: 200px;
     margin: 0 5px 0 5px; 
-    padding: 25px 10px 0 10px;
+    padding: 10px 10px 0 10px;
     float: left;
-    text-align: center;
 }
 
 nav ul {
@@ -59,13 +55,15 @@ nav ul li a:hover {
     background: gray;
     border-radius: 10px;
     color: white;
+	text-align: left;
 }
 
 nav p {
-	padding-top: 60px;
+	padding-top: 40px;
 	color: indigo;
 	font-weight: bold;
 	font-size: 1.8em;
+	text-align: center;
 	
 }
 
@@ -82,23 +80,44 @@ nav p {
 #main p {
     text-indent: 1.5em;
 }
-
-#FinishedHouse {
-	width: 150px;
-	height: 150px;
-	position: absolute;
-	}
    
 #Framing {
 	width: 450px;
 	height: 600px;
-}   
+}  
+
+#Draft {
+	width: 210px;
+	height: 175px;
+} 
+
+#Mud {
+	width: 210px;
+	height: 175px;
+} 
+
+#Frame {
+	width: 210px;
+	height: 175px;
+} 
+
+#Paint {
+	width: 210px;
+	height: 175px;
+} 
+
 aside {
     width: 200px;
     margin: 0 5px 0 5px;
     padding: 10px;
     float: right;
 }
+
+#FinishedHouse {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	}
 
 aside p {
     font-style: italic;
