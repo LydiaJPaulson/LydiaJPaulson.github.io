@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*
+   Tables Style Sheet
+   Author: Lydia Paulson
+   Date:   12/3/2021
+
+   Filename:         dlr_tables.css
+
+*/
+
+/* Table Styles */
+
+table.schedule {
+	background: white;
+	border-collapse: collapse;
+	font-size: 0.75em;
+	width: 100%;
+}
+
+/* Table Cell Styles */
+
+table.schedule th, table.schedule td {
+	border: 2px solid gray;
+	padding: 0px;
+	vertical-align: center;
+}
+
+/* Row Group Styles */
+
+table.schedule thead {
+	background: mintcream;
+	color: black;
+}
+
+table.schedule tfoot {
+	background: black;
+	color: white;
+}
+
+table.schedule thead tr {
+	height: 40px;
+}
+
+table.schedule tbody th {
+	height: 100px;
+	text-align: center;
+}
+
+table.schedule tbody td {
+	height: 100px;
+	text-align: center;
+	vertical-align: center;
+}
+
+/* Column Group Styles */
+
+col#firstCol {
+	background: rgb(218, 210, 218);
+	width: 16%;
+	}
+	
+col.dayCols {
+	background: whitesmoke;
+	width: 12%;
+}	
+
+aside#future {
+	font-size: 0.6em;
+}
